@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.generator {
+    background-color: pink;
+    padding: 20px;
+    margin: 20% 5%;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+#passwordGenerator {
+    color: red;
+}
+
+#passwordButton {
+    display: block;
+    margin: 2% 0 0 0;
+}
