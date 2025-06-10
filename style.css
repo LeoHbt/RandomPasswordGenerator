@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -21,27 +21,66 @@ h1 {
     font-size: 1.8em;
     text-align: center;
     background-color: pink;
+    color: #9B7EBD;
+    text-decoration: underline;
 }
 
 #passwordField {
-    margin: 0 0px 10px 0px;
+    margin: 0 0 0 0;
     font-size: 2em;
     background-color: white;
 }
 
 #passwordButton {
     display: block;
-    background-color: white;
+    background-color: #F49BAB;
+    border: 2px solid #9B7EBD;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 1.3em;
     margin: 2% 0 0 0;
+    padding: 5px;
 }
 
 .rangeInput {
     display: flex;
     margin: 20px 0 0 0;
     background-color: pink;
+    display: inline-block;
 }
 
 #passwordSize {
     background-color: pink;
     padding-right: 10px;
+}
+
+.rangeInput p {
+    background-color: pink;
+    padding-bottom: 5px;
+}
+
+.inputDiv {
+    position: relative;
+    width: 397px;
+}
+
+#copyIcon {
+    position: absolute;
+    height: 30px;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.copiedMessage {
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+    padding: 4px;
+    background-color: cornflowerblue;
+    color: white;
 }
