@@ -1,4 +1,4 @@
-const symbolArray = ['&', '(', ')', '-', '_', 'à', '=', '*', '$', '!', '%', '/', '@', '~', '#', 'A', 'a', 'B', 'b', 'C', 'C', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'K', 'k']
+const symbolArray = ['&', '(', ')', '-', '_', 'à', '=', '*', '$', '!', '%', '/', '@', '~', '#', 'A', 'a', 'B', 'b', 'C', 'c', 'D', 'd', 'E', 'e', 'F', 'f', 'G', 'g', 'H', 'h', 'I', 'i', 'K', 'k']
 const passwordField = document.getElementById('passwordField')
 const passwordButton = document.getElementById('passwordButton')
 const passwordLength = document.getElementById('passwordLength')
@@ -8,8 +8,8 @@ const copiedMessage = document.querySelector('.copiedMessage')
 
 // Réinitialise le mot de passe et met la valeur de taille du mot de passe a 7 au chargement de la page
 passwordField.value = ''
-passwordLength.value = 7
-passwordSize.textContent = 7
+passwordLength.value = 12
+passwordSize.textContent = 12
 
 // return un objet du tableau symbolArray
 function randomCaracter() {
